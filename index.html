@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HIMO</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container"> <!-- контейнер для ширины 1200px -->
+      <div class="header__inner">
+        <a 
+        class="logo" 
+        href="#">
+          <img 
+          class="logo__img"
+          src="images/logo.jpg" 
+          alt="Логотип">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a 
+              class="menu__link" 
+              href="#">
+              Описание</a>
+            </li>
+
+            <li class="menu__list-item">
+              <a 
+              class="menu__link" 
+              href="#">
+              Характеристики</a>
+            </li>
+
+            <li class="menu__list-item">
+              <a 
+              class="menu__link" 
+              href="#">
+              Стоимость</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <section class="bicycle">
+    <div class="container">
+      <div class="bicycle__inner">
+        <div class="bicycle__column">
+          <h1 class="bicycle__title">Xiaomi Himo C26</h1>
+          <h3 class="bicycle__subtitle">Электрический велосипед</h3>
+          <p class="bicycle__description">
+            Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния
+          </p>
+          <p class="bicycle__description">
+            HIMO C26 - это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее. 
+          </p>
+          <a class="bicycle__link" href="#">ЗАКАЗАТЬ</a>
+        </div>
+        <div class="bicycle__column bicycle__column-slider">
+          <div class="bicycle__slider">
+            <img 
+            class="bicycle-slider__item"
+            src="images/bicycle-1.jpg" 
+            alt="Велосипед - 1">
+
+            <img 
+            class="bicycle-slider__item"
+            src="images/bicycle-2.jpg" 
+            alt="Велосипед - 2">
+
+            <img 
+            class="bicycle-slider__item"
+            src="images/bicycle-3.jpg" 
+            alt="Велосипед - 3">
+
+            <img 
+            class="bicycle-slider__item"
+            src="images/bicycle-4.jpg" 
+            alt="Велосипед - 4">
+          </div>
+          <ul class="bicycle__list">
+            <li class="bicycle__list-item">
+              <span class="bicycle__list-item-title">до 100 км</span>
+              <span class="bicycle__list-item-subtitle">запас хода</span>
+            </li>
+
+            <li class="bicycle__list-item">
+              <span class="bicycle__list-item-title"> 25 км/ч</span>
+              <span class="bicycle__list-item-subtitle">макс скорость</span>
+            </li>
+
+            <li class="bicycle__list-item">
+              <span class="bicycle__list-item-title"> 3 режима езды</span>
+              <span class="bicycle__list-item-subtitle">механический, гибридный, электрический</span>
+            </li>
+
+            <li class="bicycle__list-item">
+              <span class="bicycle__list-item-title">25кг</span>
+              <span class="bicycle__list-item-subtitle">вес</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

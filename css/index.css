@@ -1,0 +1,167 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+/* li {
+  padding-left: 0;
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #131313;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  margin-right: 70px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list-item + .menu__list-item {
+  padding-left: 10px;
+}
+
+.menu__link {
+  text-transform: uppercase;
+  padding: 43px 20px;
+}
+
+.menu__link:hover {
+  background-color: #131313;
+  color: #fff;
+  transition: all .4s;
+}
+
+.bicycle {
+  padding: 100px 0 150px;
+}
+
+.bicycle__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicycle__column-slider {
+  flex-basis: 630px;
+  max-width: 630px;
+  margin-left: 30px;
+}
+
+.bicycle__title {
+  font-size: 61px;
+  line-height: 77px;
+  font-weight: 700;
+  margin: 60px 0 5px;
+}
+
+.bicycle__subtitle {
+  margin: 0 0 60px;
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.bicycle__description {
+  max-width: 420px;
+  margin-bottom: 20px;
+}
+
+.bicycle__link {
+  margin-top: 80px;
+  display: inline-block;
+  color: #fff;
+  background-color: #131313;
+  padding: 28px 81px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
+}
+
+.bicycle__slider .slick-dots {
+  right: 0;
+  top: 50px;
+}
+
+.slick-dots {
+  position: absolute;
+}
+
+.slick-dots li + li {
+  padding-top: 10px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0px;
+  border: none;
+  background-color: #131313;
+  width: 3px;
+  height: 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.slick-dots button:hover,
+.slick-active button {
+  background-color: #FF4040;
+}
+
+.bicycle__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.bicycle__list-item {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 58px;
+}
+
+.bicycle__list-item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bicycle__list-item-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: auto 0;
+}
